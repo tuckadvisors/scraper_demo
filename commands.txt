@@ -1,0 +1,10 @@
+npm init --y
+npm i -D typescript 
+npm install -D ts-node
+npm i -D nodemon
+npm i -D axios cheerio 
+npm install -D @types/axios @types/cheerio
+npm run dev 
+
+
+so for fluid simulations you use navier stokes but you have to approximate them and the level of turbulence of the air is called the reynolds number which also effecivley increases the number of steps for convergence by orders of magnitude becuase the entire thing is approximated
